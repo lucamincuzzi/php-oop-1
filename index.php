@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php
+require_once __DIR__ . "/Models/Movie.php";
+
+$mamma_mia = new Movie("Mamma Mia!", "Musical", "Phyllida Lloyd", "2008");
+
+$gotg = new Movie("Guardians of the Galaxy", "Action", "James Gunn", "2018");
+
+var_dump($mamma_mia, $gotg);
+
+?>
